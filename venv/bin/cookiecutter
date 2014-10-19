@@ -1,0 +1,10 @@
+#!/Users/josephfusaro/test_neo/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'cookiecutter==0.7.2','console_scripts','cookiecutter'
+__requires__ = 'cookiecutter==0.7.2'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('cookiecutter==0.7.2', 'console_scripts', 'cookiecutter')()
+    )
